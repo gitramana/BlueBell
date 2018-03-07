@@ -1,0 +1,43 @@
+@import "../bosons/spaces";
+
+
+
+@include define-atom("block") {
+  display: block;
+}
+@include define-atom("font-family") {
+  font-family: Georgia;
+}
+
+
+.container {
+	@include atoms((
+		block,
+		margin-top-20,
+		padding-reset,
+    margin-centered
+	)) {
+		max-width: 960px;
+	}
+}
+
+
+
+
+
+// chumma stylesheet
+
+.one-container {
+  @include atoms((
+    layout-1,
+  )) {
+
+  }
+}
+.one-20container {
+  @include atoms((
+    layout-1,
+  )) {
+
+  }
+}

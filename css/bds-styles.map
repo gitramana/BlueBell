@@ -1,0 +1,26 @@
+{
+	"version": 3,
+	"file": "../sass/bds-styles.css",
+	"sources": [
+		"../sass/bds-styles.scss",
+		"../sass/partials/_variable.scss",
+		"../sass/partials/_mixins.scss",
+		"../sass/partials/_reset.scss",
+		"../sass/partials/_base.scss",
+		"../sass/partials/_utilities.scss",
+		"../sass/partials/_media-queries.scss",
+		"../sass/partials/_ie.scss"
+	],
+	"sourcesContent": [
+		"@charset \"utf-8\";\n\n// Theme Name:\tBluebell design system\n// Theme URI:\n// Version: Beta\n// Author: Joemon Mathews\n// Author URI:\twww.coppr.co.in\n\n\n/*\n   Table of Contents\n   =============================================================================\n\t0 Reset Stylesheet\n\t1 Base\n\t2 Grid Layout\n\t3 Typography\n\t4 Form\n\t5 Table\n\t6 Images\n\t7 Main\n\t8 Utilities\n\t9 Plugins\n\t10 Media Queries\n\t11 Conditional IE class\n   =============================================================================\n*/\n\n@import \"partials/variable\";\n@import \"partials/mixins\";\n\n/* =============================================================================\n- Reset Stylesheet\n============================================================================= */\n@import \"partials/reset\";\n\n/* =============================================================================\n- Base\n============================================================================= */\n@import \"partials/base\";\n\n/* =============================================================================\n- Grid Layout\n============================================================================= */\n// @import \"partials/grid\";\n\n/* =============================================================================\n- Bosons\n============================================================================= */\n// @import \"partials/typography\";\n\n/* =============================================================================\n- Quarks\n============================================================================= */\n// @import \"partials/forms\";\n\n/* =============================================================================\n- Atom\n============================================================================= */\n// @import \"partials/table\";\n\n/* =============================================================================\n- Molecules\n============================================================================= */\n// @import \"partials/images\";\n\n/* =============================================================================\n- Organisums\n============================================================================= */\n// @import \"partials/main\";\n\n/* =============================================================================\n- Utilities\n============================================================================= */\n@import \"partials/utilities\";\n\n/* =============================================================================\n- Plugins\n============================================================================= */\n// @import \"partials/plugins\";\n\n/* =============================================================================\n- Media Queries\n============================================================================= */\n@import \"partials/media-queries\";\n\n/* =============================================================================\n- Conditional IE class\n============================================================================= */\n@import \"partials/ie\";\n",
+		"",
+		"",
+		"",
+		"",
+		".fl {\n  float: left;\n}\n/*\tInline-Block\n\t-------------------- */\n.iblock {\n\tdisplay: block;\n}\n",
+		"",
+		""
+	],
+	"mappings": "AASA;;;;;;;;;;;;;;;;EAgBE;AAKF;;gFAEgF;AAGhF;;gFAEgF;AAGhF;;gFAEgF;AAGhF;;gFAEgF;AAGhF;;gFAEgF;AAGhF;;gFAEgF;AAGhF;;gFAEgF;AAGhF;;gFAEgF;AAGhF;;gFAEgF;;AKxEhF,AAAA,GAAG,CAAC;EACF,KAAK,EAAE,IAAK;CACb;;AACD;wBACwB;;AACxB,AAAA,OAAO,CAAC;EACP,OAAO,EAAE,KAAM;CACf;;ALoED;;gFAEgF;AAGhF;;gFAEgF;AAGhF;;gFAEgF",
+	"names": []
+}

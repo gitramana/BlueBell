@@ -1,0 +1,46 @@
+@import "../partials/variables";
+@import "../partials/mixins";
+
+
+
+.bds-label {
+
+  height: $bds-height;
+  align-content: flex-end;
+  width: 7px;
+
+  &--blue {
+
+    background: $bb-green--regular;
+
+  }
+
+  &--green {
+    background: $bb-green--regular;
+
+  }
+
+  &--lilac {
+
+    background: $bb-lilac--regular;
+
+  }
+
+  &--orange {
+    background: $bb-orange--regular;
+
+  }
+
+  &--red {
+
+    background: $bb-red--regular;
+
+  }
+
+  &--yellow {
+    background: $bb-yellow--regular;
+
+  }
+
+
+}

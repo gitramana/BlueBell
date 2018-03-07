@@ -1,0 +1,50 @@
+
+body {
+
+    font-family: 'PromixaNovaRegular', 'AvenirRegular', Arial, Helvetica, sans-serif;
+    
+    * {
+      box-sizing: border-box;
+    }
+
+}
+
+
+/**
+ * The usual...
+ */
+
+h1,h2,h3,h4,h5,h6,
+p,dl,dd,ol,ul,
+form,fieldset,legend,
+table,th,td,caption,
+hr,div,span,a {
+
+    margin:0;
+    padding:0
+
+}
+
+/**
+ * So that `alt` text is visually offset if images don’t load.
+ */
+
+img {
+    font-style:italic;
+    width: 100%
+}
+
+/**
+ * Give form elements some cursor interactions...
+ */
+
+label,
+input,
+textarea,
+button,
+select,
+option {
+
+    cursor:pointer;
+
+}

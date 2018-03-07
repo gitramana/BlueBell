@@ -1,0 +1,36 @@
+@import "../partials/variables";
+@import "../partials/mixins";
+
+$bbgrabber-px: 7px;
+
+@mixin bb-backgrounds--gray {
+  background: $bb-grayscale--4;
+  color: $bb-grayscale--5;
+
+    &:hover {
+      background: $bb-green--regular;
+      color: $bb-white;
+      cursor: pointer
+    }
+}
+
+.bds-grabber-horizontal,
+.bds-grabber-vertical {
+
+  @include bb-backgrounds--gray;
+  
+
+}
+
+.bds-grabber-horizontal {
+
+  height: $bbgrabber-px;
+  width: 100%
+
+}
+
+.bds-grabber-vertical {
+
+  width: $bbgrabber-px
+
+}

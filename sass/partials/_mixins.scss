@@ -1,0 +1,65 @@
+
+
+// ****** defining atom
+@mixin define-atom($name) {
+	%#{$name} {
+		@content;
+	}
+}
+// ****** atoms
+@mixin atoms($collection: ()) {
+	@each $el in $collection {
+		@extend %#{$el};
+	}
+	@content;
+}
+
+
+
+// ****** generates placeholders
+@mixin generate-placeholder($property, $from: 0, $to: 0, $unit: px) {
+	@for $i from $from through $to {
+		%#{$property}-#{$i} { #{$property}: #{$i}#{$unit}; }
+	}
+}
+
+
+// vendor prefix
+
+@mixin vendor($property, $value...){
+    -webkit-#{$property}: $value;
+       -moz-#{$property}: $value;
+        -ms-#{$property}: $value;
+         -o-#{$property}: $value;
+            #{$property}: $value;
+}
+
+
+// Flex mixins
+
+@mixin flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+// Hover mixins
+
+@mixin hover {
+
+	&:hover
+
+	{
+		@content;
+	}
+
+}
+
+@mixin hover-focus {
+
+  &:hover,
+  &:focus {
+    @content;
+
+  }
+	
+}

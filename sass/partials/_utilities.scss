@@ -1,0 +1,35 @@
+%block {
+
+	display: block;
+
+}
+
+%inline {
+
+	display: inline;
+
+}
+
+%inline-block {
+
+	display: inline-block;
+
+}
+
+
+%space-between {
+
+	@include flex-row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+
+}
+
+%align-left {
+
+	@include flex-row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: center;
+}

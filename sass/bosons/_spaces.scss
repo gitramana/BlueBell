@@ -1,0 +1,147 @@
+@import "../partials/variables";
+@import "../partials/mixins";
+
+// margin
+%margin-reset { margin: 0; }
+%margin-centered { margin: 0 auto; }
+@include generate-placeholder('margin', 0, 100);
+@include generate-placeholder('margin-top', 0, 100);
+@include generate-placeholder('margin-right', 0, 100);
+@include generate-placeholder('margin-bottom', 0, 100);
+@include generate-placeholder('margin-left', 0, 100);
+
+// padding
+%padding-reset { padding: 0; }
+@include generate-placeholder('padding', 0, 100);
+@include generate-placeholder('padding-top', 0, 100);
+@include generate-placeholder('padding-right', 0, 100);
+@include generate-placeholder('padding-bottom', 0, 100);
+@include generate-placeholder('padding-left', 0, 100);
+
+
+// spacings
+
+// small
+
+.margin-left-xxs {
+  @include atoms((
+    margin-left-10
+  ))
+}
+
+.margin-right-xxs {
+  @include atoms((
+    margin-right-10
+  ))
+}
+
+.margin-xxs {
+  @include atoms((
+    margin-10
+  ))
+}
+
+.margin-top-xxs {
+  @include atoms((
+    margin-left-10
+  ))
+}
+
+.margin-bottom-xxs {
+  @include atoms((
+    margin-right-10
+  ))
+}
+
+
+// Medium
+.margin-left-xs {
+  @include atoms((
+    margin-left-20
+  ))
+}
+
+.margin-right-xs {
+  @include atoms((
+    margin-right-20
+  ))
+}
+
+.margin-xs {
+  @include atoms((
+    margin-20
+  ))
+}
+
+.margin-top-xs {
+  @include atoms((
+    margin-left-20
+  ))
+}
+
+.margin-bottom-xs {
+  @include atoms((
+    margin-right-20
+  ))
+}
+
+// Large
+
+
+.margin-left-xl {
+  @include atoms((
+    margin-left-40
+  ))
+}
+
+.margin-right-xl {
+  @include atoms((
+    margin-right-40
+  ))
+}
+
+.margin-xl {
+  @include atoms((
+    margin-40
+  ))
+}
+
+.margin-top-xl {
+  @include atoms((
+    margin-left-40
+  ))
+}
+
+.margin-bottom-xl {
+  @include atoms((
+    margin-right-40
+  ))
+}
+
+
+
+// Insets
+
+%inset-xxs {
+  @include atoms((
+    padding-10
+  ))
+}
+
+%inset-xs {
+  @include atoms((
+    padding-20
+  ))
+}
+
+%inset-xl {
+  @include atoms((
+    padding-40
+  ))
+}
+
+// Sizes
+
+%size-fill { width: 100%; height: 100%; }
+%size-fill-horizontal { width: 100%; }
+%size-fill-vertical { height: 100%; }

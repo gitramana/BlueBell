@@ -1,0 +1,16 @@
+@import "../partials/variables";
+@import "../partials/mixins";
+
+
+
+[class*="icon-"] {
+
+  color: $bb-grayscale--3;
+
+  @mixin hover {
+
+    color: $bb-grayscale--1;
+    
+  }
+
+}

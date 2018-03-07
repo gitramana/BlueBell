@@ -1,0 +1,17 @@
+@import "../partials/variables";
+@import "../partials/mixins";
+
+.bds-dividers {
+
+  height: 1px;
+  width: 100%;
+
+  &--grey-1 {
+    background: $bb-grayscale--5
+  }
+
+  &--grey-2 {
+    background: $bb-grayscale--6
+  }
+
+}

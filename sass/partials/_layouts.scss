@@ -1,0 +1,66 @@
+
+// Bluebell layouts
+
+%layout-1 {
+  @include atoms((
+    align-left
+  )) {
+    width: 100%;
+    border: 1px solid red
+  }
+}
+
+
+.layout-2 {
+  @include atoms((
+    inset-xs,
+    align-left
+  )) {
+    width: 100%;
+    border: 1px solid red
+  }
+}
+
+.layout-3 {
+  @include atoms((
+    align-left
+  )) {
+    width: 100%;
+    border: 1px solid red
+  }
+}
+
+.layout-4 {
+  @include atoms((
+    inset-xs,
+    align-left,
+
+  )) {
+    width: 100%;
+    border: 1px solid red
+  }
+}
+
+.layout-5 {
+  @include atoms((
+    inset-xs,
+    align-left,
+
+  )) {
+    width: 100%;
+    border: 1px solid red
+  }
+}
+
+.layout-7 {
+  @include atoms((
+    space-between
+
+  )) {
+    width: 100%;
+    border: 1px solid red
+  }
+}
+
+
+// spacings

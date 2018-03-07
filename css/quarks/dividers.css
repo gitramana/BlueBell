@@ -1,0 +1,7 @@
+.dividers {
+  height: 1px;
+  width: 100%; }
+  .dividers--grey-1 {
+    background: #ccc; }
+  .dividers--grey-2 {
+    background: #ddd; }
